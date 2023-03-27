@@ -1,0 +1,54 @@
+body {
+    background-color: lightskyblue;
+}
+header {
+    color: white;
+    text-align: center;
+    font-family: "Century Gothic";
+    text-shadow: 2px 3px 1px #00000098;
+}
+section {
+    margin: auto;
+    border-radius: 3%;
+    background-color: white;
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    padding-top: 25px;
+    position: relative;
+    box-shadow: 2px 4px 5px #00000098;
+}
+#nasc, #sexo {
+    margin-bottom: 10px;
+}
+input[name="sex"]{
+    height: 8px;
+    margin: 0px;
+    margin-left: 3px;
+}
+input[value="Mulher"] {
+    height: 20;
+    margin-left: 10px;
+}
+#verificar {
+    margin-top: 15px;
+}
+#resultado {
+    text-align: inherit;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img[alt="Sexo/Idade"] {
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+footer {
+    text-align: center;
+    margin: 10px;
+    font-size: 13px;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 0.5px 0.5px #00000098;
+}

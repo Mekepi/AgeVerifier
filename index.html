@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Verificador de Idade</h1>
+    </header>
+    <section>
+        <div id="nasc">
+            Ano de Nascimento: <input type="number" name="ano">
+        </div>
+        <div id="sexo">
+            Sexo:
+            <span>
+                <input type="radio" value="Homem" name="sex" required>
+                <label for="masc">Masculino</label>
+            </span>
+            <span>
+                <input type="radio" value="Mulher" name="sex">
+                <label for="fem">Feminino</label>
+            </span>
+        </div>
+        <div id="verificar">
+            <input type="button" value="Verificar" onclick="resultado()">
+        </div>
+        <p id="resultado">Preencha os dados para ver o resultado!</p>
+    </section>
+    <footer> © Raphael Rodrigues</footer>
+</body>
+</html>
